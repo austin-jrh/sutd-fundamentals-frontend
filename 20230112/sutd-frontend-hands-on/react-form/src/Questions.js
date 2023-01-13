@@ -5,12 +5,12 @@ export const questions = [
         {
           label: "username",
           type: "text",
-          value: "username",
+          key: "username",
         },
         {
           label: "password",
           type: "password",
-          value: "password",
+          key: "password",
         },
       ],
     },
@@ -20,17 +20,17 @@ export const questions = [
         {
           label: "Street Address",
           type: "text",
-          value: "street",
+          key: "street",
         },
         {
           label: "Postal code",
           type: "text",
-          value: "postalcode",
+          key: "postalcode",
         },
         {
           label: "State",
           type: "select",
-          value: "state",
+          key: "state",
           options: ["State 1", "State 2"],
         },
       ],
