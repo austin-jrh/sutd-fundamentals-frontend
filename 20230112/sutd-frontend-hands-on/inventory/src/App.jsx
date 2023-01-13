@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import styled from "styled-components"
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useCallback } from 'react';
 import SearchBar from './components/SearchBar';
 import ItemsDisplay from './components/ItemsDisplay';
 import AddItem from './components/AddItem';
@@ -44,7 +44,7 @@ function App() {
     setFilters(searchParams);
   }
 
-  const deleteItem = (item) => {
+  const deleteItem = useCallback((item) => {
     const items = data["items"]
     const requestOptions = {
       method: "DELETE"
@@ -61,7 +61,8 @@ function App() {
         }
       }
     )
-  }
+  }, []
+  )
 
   const addItemToData = (item) => {
     const requestOptions = {
