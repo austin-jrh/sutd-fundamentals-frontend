@@ -1,0 +1,15 @@
+
+20230112:
+Morning:
+Hands-on on different languages: Vanilla js, angular, vue, svelte
+Svelte: you can create in svelte and build, so that you get a javascript that you can put in your static website
+
+Best practices:
+1. Pure components
+2. Type your language
+3. Don't use too many unnecessary states
+4. Minimize re-rendering
+5. Use HTML5 Page Structures
+6. 
+
+Backend: can use Firebase
