@@ -171,7 +171,11 @@ function App() {
               </Card.Footer>
             ) : (
               <Card.Footer className="d-flex justify-content-between">
-                <Button onClick={prevButton} disabled={index == 1}>
+                <Button
+                  onClick={prevButton}
+                  style={{ opacity: index == 1 ? 0 : 1 }}
+                  disabled={index == 1}
+                >
                   Previous
                 </Button>
                 <Button type="submit">

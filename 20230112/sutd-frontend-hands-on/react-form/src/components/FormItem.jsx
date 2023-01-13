@@ -7,7 +7,7 @@ export const FormItem = ({ item, onChange, answer }) => {
     case "text":
       return (
         <>
-          <Form.Label>{item.label}</Form.Label>
+          <Form.Label style={{ color: "red" }}>{item.label}</Form.Label>
           <Form.Control
             type="text"
             id={item.label}
