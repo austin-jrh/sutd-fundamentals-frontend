@@ -1187,21 +1187,9 @@
     },
     {
       "userId": 1,
-      "title": "do laundry",
-      "completed": false,
-      "id": 205
-    },
-    {
-      "userId": 1,
       "title": "walk the dog",
       "completed": false,
       "id": 206
-    },
-    {
-      "userId": 1,
-      "title": "walk the dog",
-      "completed": false,
-      "id": 207
     },
     {
       "userId": 1,
