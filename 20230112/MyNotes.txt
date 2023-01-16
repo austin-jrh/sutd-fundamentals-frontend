@@ -13,3 +13,12 @@ Best practices:
 6. 
 
 Backend: can use Firebase
+
+20230116:
+
+useTransition
+useDeferredValue
+useRef
+React Query
+Suspense
+Error Boundary
