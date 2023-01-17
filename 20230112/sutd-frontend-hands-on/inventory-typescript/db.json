@@ -1,0 +1,18 @@
+{
+  "items": [
+    {
+      "name": "apple",
+      "price": 1,
+      "type": "fruit",
+      "brand": "shengshiong",
+      "id": 3
+    },
+    {
+      "name": "keyboard",
+      "price": 500,
+      "type": "accessory",
+      "brand": "taobao",
+      "id": 4
+    }
+  ]
+}
